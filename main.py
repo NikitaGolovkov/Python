@@ -1,8 +1,5 @@
-name = input("Введите имя: ")
-surname = input("Введите фамилию: ")
-age = input("Введите Ваш возвраст: ")
+def my_name(name):
+    print(name)
 
-print(name, surname, age)
 
-print(name.capitalize())
-print(surname.upper())
+my_name('Nikita')
